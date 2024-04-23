@@ -6,9 +6,9 @@ function Header() {
             <nav  className="navbar">
                 <h2>Hello World Again!</h2>
                 <ul className="navItem">
-                    <li>Thing 1</li>
-                    <li>Thing 2</li>
-                    <li>Thing 3</li>
+                    <li className="listItem">Home</li>
+                    <li className="listItem">About</li>
+                    <li className="listItem">Contact</li>
                 </ul>
             </nav>
         </header>
