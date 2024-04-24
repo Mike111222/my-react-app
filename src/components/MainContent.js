@@ -1,5 +1,4 @@
 import React from "react";
-import MyInfo from  "./MyInfo"
 
 function MainContent() {
     const date = new Date();
@@ -16,15 +15,7 @@ function MainContent() {
     return (
         <main>
             <h3 style= {{color: "#FF8C00"}}>Good { timeOfDay }! </h3>
-            <MyInfo />
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
+            
         </main>
     )
 }
